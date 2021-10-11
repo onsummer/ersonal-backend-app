@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^3.22.0",
+    "fastify-mongodb": "^4.1.1",
+    "fastify-plugin": "^3.0.0",
+    "fastify-swagger": "^4.12.4",
+    "mongoose": "^6.0.10"
+  }
+}
